@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
 
 import { AppComponent } from './app.component';
-import { HerosComponent } from './heros/heros.component';
+import { heroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HerosComponent
+    heroesComponent
   ],
   imports: [
     BrowserModule,
